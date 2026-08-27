@@ -23,4 +23,16 @@ Now that you have your first batch of data you should start deleting some of it 
 and selecting the file you want to delete from so that you don't have a lot of duplicate images.
 also go and delete some images yourself that are (not of your face,blurry,wrong pose,look duplicated or too much of them)
 If you want to make more images make a folder named temp and go back to the data collection and then move them back "ctrl + x" and "ctrl + v" to their desired area
-don't worry about them having a wrong label because this will be solved in the next step
+don't worry about them having a wrong label because this will be solved in the next step.
+
+The next step being the file relabler.py since if you delete the images it will cause a gap ("image_1,image_3" that is becasue you might have deleted "image_2")
+or maybe because you added more images from the temporary folder that would hold the name of that folder.
+so you just select the folder name and it will label everything correctly 
+
+Now that all the data is good to go and they are in the "dataset" folder you use the compress_dataset.py so you can put it in google colab to train the model
+
+DON'T run the "google_colab_code.py" on your local computer you should run it on google colab:https://colab.research.google.com/
+and select a gpu in the runtime so you get to train your model fast
+make sure to run each cell the way i hilighted in the file and download it in the same place as the rest of the code
+put the model and the rest of the info in the "meme_detector.py" file and congratiulations you can enjoy the experince.
+

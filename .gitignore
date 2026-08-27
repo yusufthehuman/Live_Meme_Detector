@@ -1,0 +1,47 @@
+# Python temporary / cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Data & Large Weights (Do not push heavy models/zips)
+asa mitaka.jpg
+birds.jpg
+emotion_model_pytorch.pth
+emotion_model_pytorch_2.pth
+emotion_model_pytorch_3.pth
+emotion_model_pytorch_4.pth
+emotion_model_pytorch_5.pth
+opencvstuff#1.py
+opencvstuff#2.py
+opencvstuff#4.py
+opencvstuff#5.py
+opencvstuff#6.py
+opencvstuff#7.py
+opencvstuff#67.py
+opencvstuff_project_testing.py
+dataset.zip
+finished big yahu go away weezer.mp4
+miquella feet.jpg
+model.p
+period thingy missile.mov
+person.jpg
+person blurred.jpg
+sisi blurred.mov
+sisi vid.mov
+sisi_blurred.mp4
+util1.py
+white.jpg
+img.png
+dataset/
+*.zip
+*.pth
+*.xml
+
+# PyCharm / IDE Settings
+.idea/
+.vscode/

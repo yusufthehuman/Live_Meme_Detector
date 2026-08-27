@@ -11,4 +11,9 @@ most importantly (use the same hand and do it in the same side of your face "so 
 2. Make sure you take pics in different light exposure so change the lights and their placements in the pics.
 3. Make sure you change the camera's postion relative to your face and the other way around between pics.
 4. Don't leave your hair in the same position in all the pics make sure you mess it up every now and then and change it so the model doesn't learn based on your hair.
-5. 
+5. Don't stay in the same state for too long the more diverse the data/pics are the better.
+6. Don't move your head too aggressivly because it will create bulrry images.
+7. make sure the background isn't causing trouble by collecting pics of things that aren't your face because it will be trouble in both you having to delete it manually later
+and it might recognize those objects as faces later in the detection phase and leading to lower accuracy in reading your face.
+
+Now that you have your first batch of data you should start deleting some of it in the data_deleter.py file and go inside 

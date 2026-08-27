@@ -1,5 +1,6 @@
 this is how you are going to deal with this code first of all you need to have the droid cam app downloaded
-if you don't have a camera that's what the code is oriented to so if you want to use your own camera which would give better results 
+the "opening_cam_for_testing.py" file is for you try out if your phone camera is working and test it out.
+if you don't have a camera that's what the code is oriented to but if you want to use your own camera which would give better results 
 you need to adjust the code for that.
 well now that you have the droid cam app downloaded on both your phone and your computer you are ready.
 first of all you are supposed to collect the data and that is by using the data_collector.py file.

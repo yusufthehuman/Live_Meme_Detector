@@ -3,7 +3,7 @@ the "opening_cam_for_testing.py" file is for you try out if your phone camera is
 if you don't have a camera that's what the code is oriented to but if you want to use your own camera which would give better results 
 you need to adjust the code for that.
 well now that you have the droid cam app downloaded on both your phone and your computer you are ready.
-first of all you are supposed to collect the data and that is by using the data_collector.py file.
+first of all you are supposed to collect the data and that is by using the "data_collector.py" file.
 after you have inserted your phone ip and choose which folder or emotion it is going to take pics of in the code,
 the camera would open and it would start taking pictures of your face and tell you how much it took so far
 so you need to be mindfull of the folowing to get the best results:
@@ -20,17 +20,17 @@ and it might recognize those objects as faces later in the detection phase and l
 9. The higher the amount of images the better mine were 2000 images for each label.
 10. Make sure all the labels have a similar amount of images in them so no bias is created with 8% difference allowed.
 
-Now that you have your first batch of data you should start deleting some of it in the data_deleter.py file just adjust how much you want to delete by changing the modulos option
+Now that you have your first batch of data you should start deleting some of it in the "data_deleter.py" file just adjust how much you want to delete by changing the modulos option
 and selecting the file you want to delete from so that you don't have a lot of duplicate images.
 also go and delete some images yourself that are (not of your face,blurry,wrong pose,look duplicated or too much of them)
 If you want to make more images make a folder named temp and go back to the data collection and then move them back "ctrl + x" and "ctrl + v" to their desired area
 don't worry about them having a wrong label because this will be solved in the next step.
 
-The next step being the file relabler.py since if you delete the images it will cause a gap ("image_1,image_3" that is becasue you might have deleted "image_2")
+The next step being the file "relabler.py" since if you delete the images it will cause a gap ("image_1,image_3" that is becasue you might have deleted "image_2")
 or maybe because you added more images from the temporary folder that would hold the name of that folder.
 so you just select the folder name and it will label everything correctly 
 
-Now that all the data is good to go and they are in the "dataset" folder you use the compress_dataset.py so you can put it in google colab to train the model
+Now that all the data is good to go and they are in the "dataset" folder you use the "compress_dataset.py" so you can put it in google colab to train the model
 
 DON'T run the "google_colab_code.py" on your local computer you should run it on google colab:https://colab.research.google.com/
 and select a gpu in the runtime so you get to train your model fast
